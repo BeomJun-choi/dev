@@ -6,7 +6,7 @@
       app
     >
       <v-list dense>
-        <v-list-item link>
+         <v-list-item to="/bar">
           <v-list-item-action>
             <v-icon>mdi-home</v-icon>
           </v-list-item-action>
@@ -22,8 +22,9 @@
             <v-list-item-title>Contact</v-list-item-title>
           </v-list-item-content>
         </v-list-item> 
+        
       </v-list>
-      <!-- <router-link to="/bar">Go to </router-link> -->
+      
     </v-navigation-drawer>
 
     <v-app-bar
@@ -50,6 +51,7 @@
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
+  
 </template>
 
 <script>

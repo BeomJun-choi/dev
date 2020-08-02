@@ -3,9 +3,11 @@ import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
-const Bar = { template: '<div>bar</div>' }
+const Bar = {
+    template: '<div>Bar component!</div>'
+  };
 
 export default new VueRouter({
-    mode: 'history',
+    
     routes: [{ path: '/bar', component: Bar }]
 })
