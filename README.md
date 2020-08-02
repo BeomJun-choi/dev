@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+###절대 경로(@) 설정방법
+https://github.com/joshua1988/vue-til/blob/complete/jsconfig.json
+
